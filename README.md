@@ -22,3 +22,8 @@ This is an introduction of how to run deep learning inference with python on Win
     - download cat.jpg and put aside py file
     - open cmd, enter python inference_CPU.py
     - it will print tabby, which is correct result
+- Step 3c. run object detection inference with GPU (resnet 50 fpn)
+    - download objectDetection_inference.py
+    - download cat.jpg and put aside py file
+    - open cmd, enter python objectDetection_inference.py
+    - it will print several object detections result with class name cat
