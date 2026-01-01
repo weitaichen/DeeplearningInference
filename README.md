@@ -1,4 +1,4 @@
-# Deeplearning Inference
+# Deep Learning Inference as API Service on local computer
 
 This is an introduction of how to run deep learning inference with python on Windows
 ---
