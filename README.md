@@ -27,3 +27,12 @@ This is an introduction of how to run deep learning inference with python on Win
     - download cat.jpg and put aside py file
     - open cmd, enter python objectDetection_inference.py
     - it will print several object detections result with class name cat
+- Step 4. install fast api
+    - open cmd, enter pip install fastapi uvicorn pillow torch torchvision
+    - in cmd, enter pip install python-multipart
+    - download classify_api.py
+    - in cmd, enter uvicorn classify_api:app --reload --host 127.0.0.1 --port 8000
+    - an api service will launch on your local computer
+    - open http://127.0.0.1:8000/docs in browser
+    - on the website, upload cat.jpg image, and click Execute to test the api
+    - you will get class name tabby response 
