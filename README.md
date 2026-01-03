@@ -39,3 +39,14 @@ This is an introduction of how to run deep learning inference with python on Win
 
 This is an introduction of how to build windows UI program (C# winform) to run image classify with python api serivce
 ---
+
+- Step 1. setup c# environment
+    - install microsoft visual studio 2022 https://visualstudio.microsoft.com/zh-hant/vs/community/
+    - create a new winform project Windows Form App (.NET Framework)
+    - Open Nuget manager, and download Newtonsoft.json
+- Step 2. download DLInspect folder
+- Step 3. build and run
+    - click load image, program will call previous open python classify api and get classify result
+<img width="742" height="478" alt="image" src="https://github.com/user-attachments/assets/671bb94d-e2f3-4754-95a7-3e10437ab6b6" />
+
+- 
