@@ -44,6 +44,7 @@ This is an introduction of how to build windows UI program (C# winform) to run i
     - install microsoft visual studio 2022 https://visualstudio.microsoft.com/zh-hant/vs/community/
     - create a new winform project Windows Form App (.NET Framework)
     - Open Nuget manager, and download Newtonsoft.json
+    - download System.Text.Json
 - Step 2. download DLInspect folder
 - Step 3. build and run
     - click load image, program will call previous open python classify api and get classify result
