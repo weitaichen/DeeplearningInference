@@ -35,4 +35,7 @@ This is an introduction of how to run deep learning inference with python on Win
     - an api service will launch on your local computer
     - open http://127.0.0.1:8000/docs in browser
     - on the website, upload cat.jpg image, and click Execute to test the api
-    - you will get class name tabby response 
+    - you will get class name tabby response
+
+This is an introduction of how to build windows UI program (C# winform) to run image classify with python api serivce
+---
